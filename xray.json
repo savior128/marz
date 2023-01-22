@@ -34,11 +34,11 @@
                 },
                  "security": "tls",
                  "tlsSettings": {
-                     "serverName": "marz.onrender.com",
+                     "serverName": "Render.com",
                      "certificates": [
                          {
-                             "certificateFile": "/etc/letsencrypt/live/marz.onrender.com/fullchain.pem",
-                             "keyFile": "/etc/letsencrypt/live/marz.onrender.com/privkey.pem"
+                             "certificateFile": "/etc/letsencrypt/live/Render.com/fullchain.pem",
+                             "keyFile": "/etc/letsencrypt/live/Render.com/privkey.pem"
                          }
                      ],
                      "minVersion": "1.2",
@@ -61,11 +61,11 @@
                 },
                  "security": "tls",
                  "tlsSettings": {
-                     "serverName": "marz.onrender.com",
+                     "serverName": "Render.com",
                      "certificates": [
                          {
-                             "certificateFile": "/etc/letsencrypt/live/marz.onrender.com/fullchain.pem",
-                             "keyFile": "/etc/letsencrypt/live/marz.onrender.com/privkey.pem"
+                             "certificateFile": "/etc/letsencrypt/live/Render.com/fullchain.pem",
+                             "keyFile": "/etc/letsencrypt/live/Render.com/privkey.pem"
                          }
                      ],
                      "minVersion": "1.2",
