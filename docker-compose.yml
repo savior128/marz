@@ -20,3 +20,4 @@ services:
     volumes:
       - ./xray_config.json:/xray_config.json
       - /var/lib/marzban:/var/lib/marzban
+      - /etc/letsencrypt/:/etc/letsencrypt
