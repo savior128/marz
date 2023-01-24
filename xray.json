@@ -31,14 +31,15 @@
                 "network": "ws",
                 "wsSettings": {
                     "path": "/"
-                },
+                }
+                 ,
                  "security": "tls",
                  "tlsSettings": {
-                     "serverName": "okteto.com",
+                     "serverName": "SERVER_NAME",
                      "certificates": [
                          {
-                             "certificateFile": "/etc/letsencrypt/live/okteto.com/fullchain.pem",
-                             "keyFile": "/etc/letsencrypt/live/okteto.com/privkey.pem"
+                             "certificateFile": "CERT_FILE_PATH",
+                             "keyFile": "KEY_FILE_PATH"
                          }
                      ],
                      "minVersion": "1.2",
@@ -58,14 +59,15 @@
                 "network": "ws",
                 "wsSettings": {
                     "path": "/"
-                },
+                }
+                 ,
                  "security": "tls",
                  "tlsSettings": {
-                     "serverName": "okteto.com",
+                     "serverName": "SERVER_NAME",
                      "certificates": [
                          {
-                             "certificateFile": "/etc/letsencrypt/live/okteto.com/fullchain.pem",
-                             "keyFile": "/etc/letsencrypt/live/okteto.com/privkey.pem"
+                             "certificateFile": "CERT_FILE_PATH",
+                             "keyFile": "KEY_FILE_PATH"
                          }
                      ],
                      "minVersion": "1.2",
