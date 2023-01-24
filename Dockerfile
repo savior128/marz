@@ -14,7 +14,7 @@ RUN wget -O - https://raw.githubusercontent.com/teddysun/across/master/docker/xr
     && wget -O /usr/local/share/xray/geoip.dat https://github.com/v2fly/geoip/releases/latest/download/geoip.dat
 
 COPY . /code
-RUN apt install certbot
+
 RUN python -m pip install --upgrade pip
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
