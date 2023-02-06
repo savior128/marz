@@ -1,8 +1,8 @@
 services:
   marzban:
-    image: gozargah/marzban:latest
+    image: gozargah/marzban:dev
     restart: on-failure
-    env_file: .env.example
+    env_file: .env
 
     environment:
       UVICORN_HOST: 0.0.0.0
