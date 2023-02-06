@@ -35,7 +35,7 @@
                  ,
                  "security": "tls",
                  "tlsSettings": {
-                     "serverName": "onrender.com",
+                     "serverName": "doprax.com",
                      "certificates": [
                          {
                              "certificateFile": "CERT_FILE_PATH",
