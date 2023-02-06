@@ -35,7 +35,7 @@
                  ,
                  "security": "tls",
                  "tlsSettings": {
-                     "serverName": "SERVER_NAME",
+                     "serverName": "onrender.com",
                      "certificates": [
                          {
                              "certificateFile": "CERT_FILE_PATH",
